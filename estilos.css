@@ -3,17 +3,19 @@
     font-family: "Roboto", serif;
 }
 
-body{ 
+body {
     color: #6340a7;
     background-color: #f5df4d;
     margin: auto;
     width: 65%;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .gris {
     color: black;
     background-color: #939597;
-    padding: 15px;
+    padding: 5px;
     overflow: hidden;
 }
 
@@ -25,14 +27,18 @@ h3 {
     font-size: 1.75rem;
 }
 
+h4 {
+    font-size: 1.35rem;
+}
+
 p {
     font-size: 1.18rem;
     font-family: "Noto Sans", sans-serif;
     line-height: 2.35rem;
-    text-align: justify;    
+    text-align: justify;
 }
 
-nav a{
+nav a {
     float: left;
     color: black;
     width: 24.95%;
@@ -48,13 +54,14 @@ h5 {
     font-family: "Noto Sans", sans-serif;
 }
 
-nav img  {
+nav img {
     display: block;
     margin: auto;
+    border: none;
 }
 
 #lupa {
-    width: 20%
+    width: 20%;
 }
 
 #reloj {
@@ -69,26 +76,25 @@ nav img  {
     width: 24%;
 }
 
-
-@media only screen and (max-width: 1250px){
+@media only screen and (max-width: 1250px) {
     body {
-        width: 80%
+        width: 80%;
     }
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 800px) {
     nav a {
-        width: 100%;    
-    } 
+        width: 100%;
+    }
     nav a:hover {
         background-color: none;
-    } 
+    }
     nav a:link {
-        color: #0000ee;;
+        color: #0000ee;
     }
     nav a:visited {
         color: #551a8b;
-    }   
+    }
     #lupa {
         width: 10%;
     }
@@ -105,4 +111,21 @@ nav img  {
 
 ul {
     list-style-type: none;
+}
+
+table, td, th {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    font-size: 1.18rem;
+    font-family: "Noto Sans", sans-serif;
+}
+
+img {
+    width: 75%;
+    border: 1px ridge black;
+}
+
+.mascota {
+    width: 20%;
 }
