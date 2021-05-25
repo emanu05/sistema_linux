@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+body{ 
+    color: #6340a7;
+    background-color: #f5df4d;
+    margin: auto;
+    width: 65%;
+}
+
+.gris {
+    color: black;
+    background-color: #939597;
+    padding: 15px;
+    overflow: hidden;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+p {
+    font-size: 1.18rem;
+    font-family: "Noto Sans", sans-serif;
+    line-height: 2.35rem;
+    text-align: justify;    
+}
+
+nav a{
+    float: left;
+    color: black;
+    width: 24.95%;
+}
+
+nav a:hover {
+    background-color: #E9E6E2;
+}
+
+h5 {
+    font-size: 1.15rem;
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+}
+
+nav img  {
+    display: block;
+    margin: auto;
+}
+
+#lupa {
+    width: 20%
+}
+
+#reloj {
+    width: 23%;
+}
+
+#distros {
+    width: 30%;
+}
+
+#tux-servidor {
+    width: 24%;
+}
+
+
+@media only screen and (max-width: 1250px){
+    body {
+        width: 80%
+    }
+}
+
+@media only screen and (max-width: 800px){
+    nav a {
+        width: 100%;    
+    } 
+    nav a:hover {
+        background-color: none;
+    } 
+    nav a:link {
+        color: #0000ee;;
+    }
+    nav a:visited {
+        color: #551a8b;
+    }   
+    #lupa {
+        width: 10%;
+    }
+    #reloj {
+        width: 13%;
+    }
+    #distros {
+        width: 15%;
+    }
+    #tux-servidor {
+        width: 13%;
+    }
+}
+
+ul {
+    list-style-type: none;
+}
